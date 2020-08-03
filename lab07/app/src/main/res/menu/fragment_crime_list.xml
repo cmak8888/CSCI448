@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <item
+        android:id="@+id/new_crime_menu_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/ic_menu_add"
+        android:title="@string/new_crime"
+        app:showAsAction="ifRoom|withText"
+        />
+    <item
+        android:id="@+id/first_crime_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/first_crime_button"
+        android:text="@string/first_crime"
+        />
+
+    <item
+        android:id="@+id/last_crime_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/last_crime_button"
+        android:text="@string/last_crime"
+        />
+</menu>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Kotlin Quiz</string>
+    <string name="score">Score:</string>
+    <string name="t">True</string>
+    <string name="f">False</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="cheat">Cheat</string>
+    <string name="cheat_q">Are you really sure you want to do this?</string>
+    <string name="show_answer">SHOW THE ANSWER</string>
+    <string name="answeris">The Answer is</string>
+    <string name="submit">Submit</string>
+
+    <string name="question1">Colorado School of Mines is located in South Bend, IN.</string>
+    <string name="question2">Colorado School of Mines is located in Colorado.</string>
+    <string name="question3">Colorado School of Mines is located in South Bend, CA.</string>
+    <string name="question4">Colorado School of Mines is located in the Arctic.</string>
+    <string name="question5">Which of the following is not a continent?</string>
+    <string name="Fivechoice1">Antarctica</string>
+    <string name="Fivechoice2">Alaska</string>
+    <string name="Fivechoice3">Africa</string>
+    <string name="Fivechoice4">Asia</string>
+    <string name="question6">What is the capital of Colorado?</string>
+    <string name="correct_toast">Your knowledge is undoubtedly top notch!</string>
+    <string name="incorrect_toast">You must consult the elders for additional training.</string>
+    <string name="cheat_toast">Cheaters never Prosper</string>
+</resources>

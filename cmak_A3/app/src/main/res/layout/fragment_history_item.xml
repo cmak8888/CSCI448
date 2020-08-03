@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="10sp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:textStyle="bold"
+            android:text="Checked In: " />
+
+        <TextView
+            android:id="@+id/timestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Fri, April 22, 2020 03:34PM "/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout"
+        app:layout_constraintEnd_toStartOf="@id/linearLayout3">
+    <TextView
+        android:id="@+id/latitude_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Lat:  " />
+
+    <TextView
+        android:id="@+id/temperature_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Temp: " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toEndOf="@id/linearLayout2"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout"
+        app:layout_constraintEnd_toStartOf="@id/linearLayout4">
+
+        <TextView
+            android:id="@+id/latitude_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"/>
+
+        <TextView
+            android:id="@+id/temperature_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2" />
+    </LinearLayout>
+    <LinearLayout
+    android:id="@+id/linearLayout4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:orientation="vertical"
+    app:layout_constraintStart_toEndOf="@id/linearLayout3"
+    app:layout_constraintTop_toBottomOf="@id/linearLayout"
+    app:layout_constraintEnd_toStartOf="@id/linearLayout5">
+    <TextView
+        android:id="@+id/longitude_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Long: " />
+
+    <TextView
+        android:id="@+id/weather_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:textStyle="bold"
+        android:text="Weather: " />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toEndOf="@id/linearLayout4"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent">
+<!--        app:layout_constraintEnd_toStartOf="@id/imageButton">-->
+    <TextView
+        android:id="@+id/longitude_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2" />
+
+    <TextView
+        android:id="@+id/weather_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear sky"/>
+    </LinearLayout>
+<!--    <ImageButton-->
+<!--        android:id="@+id/imageButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginRight="16dp"-->
+<!--        android:contentDescription="Lock"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/linearLayout"-->
+<!--        app:srcCompat="@drawable/ic_unlock" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

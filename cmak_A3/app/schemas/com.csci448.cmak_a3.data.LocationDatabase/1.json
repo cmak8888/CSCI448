@@ -1,0 +1,70 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "e2c1ebefaa2fdf543089d9d610ed2813",
+    "entities": [
+      {
+        "tableName": "Location",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`Latitude` REAL NOT NULL, `Longitude` REAL NOT NULL, `Temperature` REAL NOT NULL, `Weather` TEXT NOT NULL, `Address` TEXT NOT NULL, `time` INTEGER NOT NULL, `id` TEXT NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "Latitude",
+            "columnName": "Latitude",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "Longitude",
+            "columnName": "Longitude",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "Temperature",
+            "columnName": "Temperature",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "Weather",
+            "columnName": "Weather",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "Address",
+            "columnName": "Address",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "time",
+            "columnName": "time",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'e2c1ebefaa2fdf543089d9d610ed2813')"
+    ]
+  }
+}

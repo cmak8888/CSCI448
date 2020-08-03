@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">WeathrTrackr</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="map_label">Map</string>
+    <string name="about_label">About</string>
+    <string name="history_label">History</string>
+    <string name="settings_label">Settings</string>
+
+    <string name="new_location_label">New Location</string>
+    <string name="delete_location_label">Delete Location</string>
+    <string name="confirm_delete">Confirm Delete?</string>
+    <string name="confirm_delete_message">Are you sure you wish to delete this location?</string>
+
+    <string name="loc_db_settings">Locations Database</string>
+    <string name="savelocations_settings">Save Locations to Database</string>
+    <string name="deletedata_settings">Delete Database</string>
+
+    <string name="label_about">About</string>
+    <string name="label_dev_about">Developed by</string>
+    <string name="label_version_about">Version</string>
+    <string name="developer_about">Calvin Mak</string>
+    <string name="version_about">Alpha - 0.0.1</string>
+    <string name="desc_about">This is an app that finds the weather at your current location when you press the button on the bottom right. Your location is then plotted on to a map. Clicking the marker will show the time. address, as well as the temperature and weather at the bottom. The delete button will delete the marker. Please note there is some delay between the saving and deleting so please be patient between creating a new marker and deleting it on the map page. If the marker does not immediately delete, then it has not completed saving. Please give it a few seconds before trying again.
+    The history page allows you to browse all the markers you have made. Swiping on the item to the right allows you to be able to delete it. The settings allows you to enable marker saving if you want or you can disable it. You can also choose to delete all the markers by selecting the little trash button on the right.
+    You can navigate between pages by opening the hamburger menu.</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

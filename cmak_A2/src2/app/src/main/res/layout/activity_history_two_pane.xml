@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="?attr/dividerHorizontal"
+    android:orientation="horizontal"
+    android:showDividers="middle">
+    <TextView
+        android:id="@+id/game_title_label"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/game_title_label"
+        android:textSize="14pt"/>
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/detail_fragment_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3">
+
+    </FrameLayout>
+</LinearLayout>

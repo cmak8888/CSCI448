@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="title">Welcome</string>
+    <string name="play">Play Game</string>
+    <string name="play_again">Play Again</string>
+    <string name="history">History</string>
+    <string name="preferences">Preferences</string>
+    <string name="go_back">Go Back</string>
+    <string name="exit">Exit</string>
+
+    <string name="numPlayers">NUMBER OF PLAYERS </string>
+    <string name="difficulty">AI DIFFICULTY </string>
+    <string name="playfirst">WHO PLAYS FIRST? </string>
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="normal">NORMAL</string>
+    <string name="hard">HARD</string>
+    <string name="X">X</string>
+    <string name="O">O</string>
+    <string name="clear">CLEAR</string>
+
+    <string name="game_title_label">Tic Tac Toe</string>
+    <string name="game_piece_label">Testing</string>
+
+    <string name="p1">Player One</string>
+    <string name="p2">Player Two</string>
+    <string name="p1win">Player One Has Won!!!!</string>
+    <string name="p2win">Player Two Has Won!!!!</string>
+    <string name="tie">This game is a Tie!!!!</string>
+    <string name="savePref">Preferences have been saved.</string>
+
+    <string name="player_filter">Change Player Filter</string>
+    <string name="tile_filter">Filter by Tile</string>
+    <string name="tictactoe">Tic Tac Toe</string>
+</resources>

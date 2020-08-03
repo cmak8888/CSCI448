@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <item
+        android:id="@+id/play_game_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/ic_play_game"
+        android:title="@string/play"
+        android:text="@string/play"
+        app:showAsAction="ifRoom|withText"
+        />
+    <item
+        android:id="@+id/history_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/ic_history"
+        android:title="@string/history"
+        android:text="@string/history"
+        app:showAsAction="ifRoom|withText"
+        />
+    <item
+        android:id="@+id/preferences_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/ic_preferences"
+        android:title="@string/preferences"
+        android:text="@string/preferences"
+        app:showAsAction="ifRoom|withText"
+        />
+    <item
+        android:id="@+id/exit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/ic_exit"
+        android:title="@string/exit"
+        android:text="@string/exit"
+        app:showAsAction="ifRoom|withText"
+        />
+</menu>

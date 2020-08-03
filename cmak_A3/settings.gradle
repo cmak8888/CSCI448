@@ -1,0 +1,2 @@
+rootProject.name='cmak_A3'
+include ':app'

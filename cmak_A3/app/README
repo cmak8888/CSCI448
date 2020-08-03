@@ -1,0 +1,13 @@
+Retrofit converts the http API into a java interface format that's easier to use and manipulate.
+The GSON is a JSON parser for parsing data from and to a JSON format.
+The hardest part would be the entire map fragment and figuring all the kinks of it.
+Notifications, checks, and progressbars for saving and loading as well as a better Map API that could run faster.
+
+Calvin Mak/ cmak@mymail.mines.edu
+A3 WeathrTrackr
+This is an app that finds the weather at your current location when you press the button on the bottom right. Your location is then plotted on to a map. Clicking the marker will show the time. address, as well as the temperature and weather at the bottom. The delete button will delete the marker. Please note there is some delay between the saving and deleting so please be patient between creating a new marker and deleting it on the map page. If the marker does not immediately delete, then it has not completed saving. Please give it a few seconds before trying again.
+The history page allows you to browse all the markers you have made. Swiping on the item to the right allows you to be able to delete it. The settings allows you to enable marker saving if you want or you can disable it. You can also choose to delete all the markers by selecting the little trash button on the right.
+You can navigate between pages by opening the hamburger menu.
+Simply drop the APK into the emulator to download it.
+One major bug is that there is a large delay between creating/saving a new marker and deleting the same new marker. I assume it is since retrieving the weather takes a bit of time and I set it up to be asynchronous.
+When creating a new marker. Wait a few seconds before selecting and deleting it. You can select it, but deleting is a bit delayed for newer markers. The screen takes a while to update as well for deletions.

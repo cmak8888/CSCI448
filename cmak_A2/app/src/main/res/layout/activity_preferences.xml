@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/preferences"
+        android:gravity="center"
+        android:textSize="24pt"
+        />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:gravity="center"
+            android:text="@string/numPlayers"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end">
+
+            <Button
+                android:id="@+id/one_player"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:text="@string/num1"
+                />
+
+            <Button
+                android:id="@+id/two_player"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:text="@string/num2"
+                />
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/ai_difficulty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingTop="4dp"
+            android:layout_gravity="start"
+            android:gravity="center"
+            android:text="@string/difficulty"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/difficulty_radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/normal_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_gravity="center"
+                android:textSize="7pt"
+                android:text="@string/normal" />
+
+            <RadioButton
+                android:id="@+id/hard_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_gravity="center"
+                android:textSize="7pt"
+                android:text="@string/hard" />
+        </RadioGroup>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:gravity="center"
+            android:text="@string/playfirst"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end">
+
+            <Button
+                android:id="@+id/x_button"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:text="@string/X"
+                />
+
+            <Button
+                android:id="@+id/o_button"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:text="@string/O"
+                />
+        </LinearLayout>
+    </FrameLayout>
+    <Button
+        android:id="@+id/clear_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:textSize="10pt"
+        android:textColor="#D90000"
+        android:text="@string/clear"
+        />
+</LinearLayout>

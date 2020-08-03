@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/title"
+        android:gravity="center"
+        android:textSize="18pt"
+        />
+    <!--<androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:id="@+id/play_image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="TicTacToe"
+            android:src="@drawable/tictactoe"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+    <Button
+        android:id="@+id/play_game_button"
+        android:layout_height="50dp"
+        android:layout_width="225dp"
+        android:layout_marginTop="16dp"
+        android:textSize="8pt"
+        android:layout_gravity="center"
+        android:text="@string/play"
+        />
+    <Button
+        android:id="@+id/history_game_button"
+        android:layout_height="50dp"
+        android:layout_width="225dp"
+        android:textSize="8pt"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:text="@string/history"
+        />
+    <Button
+        android:id="@+id/preferences_game_button"
+        android:layout_height="50dp"
+        android:layout_width="225dp"
+        android:layout_marginTop="8dp"
+        android:textSize="8pt"
+        android:layout_gravity="center"
+        android:text="@string/preferences"
+    />
+    <Button
+        android:id="@+id/exit_game_button"
+        android:layout_height="50dp"
+        android:layout_width="225dp"
+        android:textSize="8pt"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:text="@string/exit"
+    />
+</LinearLayout>
